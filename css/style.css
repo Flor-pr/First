@@ -1,0 +1,348 @@
+
+/* <!--Header--> */
+body {
+    /* font-family: "Verdana", sans-serif; */
+    /* font-family: Geneva, Verdana, sans-serif; */
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+.nav-pos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+.nav-background {
+    background-color: rgba(14, 135, 241, 0.582);
+    color: white;
+
+}
+.li-hover:hover  {
+    background-color: rgb(14, 135, 241);
+   
+}
+.a-social:hover, .a-social:active {
+    color: white;
+}
+
+/* <!--Hero Section--> */
+
+.line-space {
+    line-height: 2.5;
+}
+
+.div-col {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    padding: 0;
+
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4%;
+    object-fit: cover;
+
+}
+
+.img-opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+}
+
+
+.div-txt {
+    z-index: 3;
+    text-align: center;
+
+}
+
+
+
+.h2-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.h1-title {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.p-title {
+    font-size: 28px;
+}
+
+.btn-prim {
+    letter-spacing: 1px;
+    background-color: rgb(174, 212, 130);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+
+}
+
+.btn-prim:hover,
+.btn-prim:active {
+    background-color: rgb(255, 140, 0);
+
+}
+
+
+
+
+/* <!--First Section-->*/ 
+
+/* <!--Second Section--> */
+
+.min-altezza {
+    min-height: 80vh;
+}
+
+.colona-relativ {
+    position: relative;
+    min-height: 500px;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-art2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 48%;
+    max-height: 62%;
+    z-index: 20;
+    border-radius: 13%;
+
+    background-color: aliceblue;
+
+    box-shadow: 0 0 0 1px rgba(35, 173, 278, 1);
+    transition: all 200ms ease-out;
+}
+
+.image-art1 {
+    max-width: 65%;
+    max-height: 75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 13%; 
+
+    background-color: aliceblue;
+
+    box-shadow: 0 0 0 2px rgba(35, 173, 278, 1);
+    transition: all 200ms ease-out;
+
+}
+
+.image-art1:hover  {
+    z-index: 30;
+    transform: rotate(5deg);
+    border-radius: 13%;
+    box-shadow: 0 0 70px rgba(35, 173, 278, 1);
+
+}
+.image-art2:hover {
+    border-radius: 13%;
+    transform: rotate(-5deg);
+    box-shadow: 0 0 70px rgba(35, 173, 278, 1);
+    
+}
+
+
+
+/* <!--Section Background --> 
+#background-section {
+    background-color: rgba(85, 87, 85, 0.24);
+}
+*/
+
+
+/* <!--Section Galerie--> */
+
+
+
+.img-misure {
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    background-color: rgb(223, 239, 252);
+    object-fit: cover;
+    margin: 5px;
+    border: 1px solid #ccc;
+
+    transition: all ease-in-out 0.5s;
+}
+
+.img-misure:hover {
+box-shadow: 0 0 80px rgba(35, 173, 278, 1);
+}  
+
+
+.imag-misure1e4:hover {
+    transform: perspective(500px) rotateY(25deg);
+    border: 1px solid #777;
+}
+.imag-misure2e5:hover {
+    transform: scale(1.2);
+    border: 1px solid #777;
+}
+.imag-misure3e6:hover {
+    transform: perspective(500px) rotateY(-25deg);
+    border: 1px solid #777;
+}
+
+
+.grande-title {
+    font-size: 42px;
+}
+
+/* .line-alt {
+    line-height: 0.8;
+} */
+
+
+/* <!-- Grande Text Section--> 
+
+#large-text {
+    background-color: rgba(50, 205, 50, 0.24);
+
+}
+*/
+
+
+.super-text {
+    font-size: 86px;
+
+}
+
+.linia-grosa {
+    margin-left: 44%;
+    width: 12%;
+    height: 10px;
+    background-color: lightslategrey;
+
+}
+
+.sotto-super {
+    font-size: 32px;
+
+}
+
+/* <!-- Prenota---> */
+
+#prenota-id {
+    background-color: #212121;
+    color: white;
+
+}
+
+textarea {
+    background-color: #505050;
+    color: white;
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid white;
+    height: 100px;
+
+}
+
+.nostri-clienti {
+    background-color: #212121;
+
+    color: white;
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid white;
+}
+
+
+
+#divNasconso {
+    display: none;
+    
+}
+
+/* <!-- Info---> */
+
+#info {
+    background-color:  black;
+    color: white;
+    
+}
+
+.lista-social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.a-social {
+    color: white;
+}
+
+
+
+/* Media querry */
+
+@media only screen and (max-width: 425px) {
+    .h2-title {
+        font-size: 32px;
+    }
+
+    .h1-title {
+        font-size: 48px;
+    }
+
+    .p-title {
+        font-size: large;
+    }
+
+    .grande-title {
+        font-size: 32px; 
+    }
+    .img-opacity,
+    .div-img {
+        border-radius: 0;
+    }
+
+    .super-text {
+        font-size: 48px;
+    }
+
+    .div-col {
+        height: 100vh;
+    }
+
+    .img-misure{
+        margin: 0;
+        padding: 0;
+    }
+}
